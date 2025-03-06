@@ -50,3 +50,5 @@ export default function RootLayout({
 }
 
 import "./globals.css";
+import { Github } from "lucide-react";
+import { Button } from "@/components/ui/button";
