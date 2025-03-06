@@ -68,7 +68,12 @@ export default function Projects() {
                         />
 
                         <div className="flex gap-3">
-                            <Button variant="outline" size="sm" asChild>
+                            <Button
+                                className={project.links.github ? "" : "hidden"}
+                                variant="outline"
+                                size="sm"
+                                asChild
+                            >
                                 <a
                                     href={
                                         project.links.github
@@ -77,12 +82,7 @@ export default function Projects() {
                                     }
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className={
-                                        "flex items-center gap-2 " +
-                                        project.links.github
-                                            ? "hidden"
-                                            : ""
-                                    }
+                                    className="flex items-center gap-2"
                                 >
                                     <Github className="h-4 w-4" />
                                     GitHub
