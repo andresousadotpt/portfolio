@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
     title: "André Sousa - DevOps Engineer",
     description:
-        "Markdown look portfolio (not using markdown but wan't 🥲) for a DevOps Engineer",
+        "The classic DevOps Engineer experience website. (Markdown look portfolio 💀)",
     icons: {
         icon: [
             {
