@@ -3,7 +3,7 @@ export default function Experience() {
         {
             title: "DevOps Engineer 😍",
             company: "TeamViewer",
-            period: "Jan 2025 - Presente",
+            period: "Jan 2025 - Present",
             responsibilities: ["Still exploring 🤠."],
         },
         {
