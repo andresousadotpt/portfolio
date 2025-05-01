@@ -47,7 +47,6 @@ export default function RootLayout({
                         domain="andresousa.pt"
                         customDomain="https://plausible.andresousa.pt"
                         selfHosted={true}
-                        trackLocalhost={true}
                         enabled={true}
                     >
                         {children}
