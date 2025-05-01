@@ -1,11 +1,11 @@
 "use client";
 
-import { useTheme } from "next-themes";
-import { Github, GithubIcon, Moon, Sun } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import {useTheme} from "next-themes";
+import {ChartNoAxesCombined, Github, GithubIcon, Moon, Sun} from "lucide-react";
+import {Button} from "@/components/ui/button";
 
 export default function ThemeToggle() {
-    const { theme, setTheme } = useTheme();
+    const {theme, setTheme} = useTheme();
 
     return (
         <>
@@ -21,6 +21,19 @@ export default function ThemeToggle() {
                 aria-label="Go to this portfolio repo"
             >
                 <Github className="h-5 w-5" />
+            </Button>
+            <Button
+                variant="ghost"
+                size="icon"
+                onClick={() =>
+                    window.open(
+                        "https://plausible.andresousa.pt/andresousa.pt/",
+                        "_blank",
+                    )
+                }
+                aria-label="Go to this portfolio open analytics"
+            >
+                <ChartNoAxesCombined className="h-5 w-5" />
             </Button>
             <Button
                 variant="ghost"
