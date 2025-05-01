@@ -1,9 +1,10 @@
 import type React from "react";
-import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
+import type {Metadata} from "next";
+import {JetBrains_Mono} from "next/font/google";
 import "./globals.css";
 import ThemeProvider from "@/components/theme-provider";
 import ThemeToggle from "@/components/theme-toggle";
+import PlausibleProvider from "next-plausible";
 
 const jetbrainsMono = JetBrains_Mono({
     subsets: ["latin"],
@@ -42,13 +43,17 @@ export default function RootLayout({
                     <div className="absolute right-4 top-4 md:right-8 md:top-8">
                         <ThemeToggle />
                     </div>
-                    {children}
+                    <PlausibleProvider
+                        domain="andresousa.pt"
+                        customDomain="https://plausible.andresousa.pt"
+                        selfHosted={true}
+                        trackLocalhost={true}
+                        enabled={true}
+                    >
+                        {children}
+                    </PlausibleProvider>
                 </ThemeProvider>
             </body>
         </html>
     );
 }
-
-import "./globals.css";
-import { Github } from "lucide-react";
-import { Button } from "@/components/ui/button";
