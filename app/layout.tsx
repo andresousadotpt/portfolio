@@ -43,14 +43,14 @@ export default function RootLayout({
                     <div className="absolute right-4 top-4 md:right-8 md:top-8">
                         <ThemeToggle />
                     </div>
-                    <PlausibleProvider
+                    {/* <PlausibleProvider
                         domain="andresousa.pt"
                         customDomain="https://plausible.andresousa.pt"
                         selfHosted={true}
                         enabled={true}
-                    >
-                        {children}
-                    </PlausibleProvider>
+                    > */}
+                    {children}
+                    {/* </PlausibleProvider> */}
                 </ThemeProvider>
             </body>
         </html>

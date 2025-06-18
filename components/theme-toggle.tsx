@@ -22,7 +22,7 @@ export default function ThemeToggle() {
             >
                 <Github className="h-5 w-5" />
             </Button>
-            <Button
+            {/* <Button
                 variant="ghost"
                 size="icon"
                 onClick={() =>
@@ -34,7 +34,7 @@ export default function ThemeToggle() {
                 aria-label="Go to this portfolio open analytics"
             >
                 <ChartNoAxesCombined className="h-5 w-5" />
-            </Button>
+            </Button> */}
             <Button
                 variant="ghost"
                 size="icon"
