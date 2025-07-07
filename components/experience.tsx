@@ -1,7 +1,7 @@
 export default function Experience() {
     const experiences = [
         {
-            title: "DevOps Engineer 😍",
+            title: "Junior DevOps Engineer 😍",
             company: "TeamViewer",
             period: "Jan 2025 - Present",
             responsibilities: ["Still exploring 🤠."],
