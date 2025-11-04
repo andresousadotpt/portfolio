@@ -1,31 +1,35 @@
 export default function Skills() {
     const skillCategories = [
         {
-            name: "Cloud & Infrastructure",
+            name: "Infrastructure & Cloud",
             skills: [
                 "AWS",
                 "Azure",
                 "Terraform",
-                "Kubernetes",
                 "Docker",
+                "Kubernetes",
                 "Helm",
             ],
         },
         {
             name: "CI/CD & Automation",
-            skills: ["Jenkins", "GitHub Actions", "GitOps", "GitLab CI"],
+            skills: ["GitHub Actions", "GitLab CI"],
+        },
+        {
+            name: "GitOps",
+            skills: ["FluxCD", "ArgoCD"],
         },
         {
             name: "Monitoring & Observability",
-            skills: ["Grafana", "Prometheus", "ELK Stack", "Loki", "Mimir"],
+            skills: ["Grafana", "Prometheus", "Loki", "Mimir", "Fluentbit"],
         },
         {
             name: "Languages & Tools",
-            skills: ["Bash", "Python", "Go", "Java", "YAML", "Git", "Linux"],
+            skills: ["Bash", "Go", "Java", "SQL", "Git", "Linux"],
         },
         {
             name: "Database",
-            skills: ["SQL", "PostgreSQL", "MySQL", "MariaDB"],
+            skills: ["PostgreSQL", "MySQL"],
         },
     ];
 

@@ -1,7 +1,15 @@
 "use client";
 
 import {useTheme} from "next-themes";
-import {ChartNoAxesCombined, Github, GithubIcon, Moon, Sun} from "lucide-react";
+import {
+    ChartNoAxesCombined,
+    Github,
+    GithubIcon,
+    Mail,
+    Moon,
+    Phone,
+    Sun,
+} from "lucide-react";
 import {Button} from "@/components/ui/button";
 
 export default function ThemeToggle() {
@@ -21,6 +29,14 @@ export default function ThemeToggle() {
                 aria-label="Go to this portfolio repo"
             >
                 <Github className="h-5 w-5" />
+            </Button>
+            <Button
+                variant="ghost"
+                size="icon"
+                onClick={() => window.open("mailto:contact@andresousa.pt")}
+                aria-label="Email me"
+            >
+                <Mail className="h-5 w-5" />
             </Button>
             {/* <Button
                 variant="ghost"

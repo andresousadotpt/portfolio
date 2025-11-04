@@ -1,50 +1,41 @@
 export default function Experience() {
     const experiences = [
         {
-            title: "DevOps Engineer 😍",
+            title: "DevOps Engineer ♾️",
             company: "TeamViewer",
+            companyUrl: "https://teamviewer.com",
+            companyDescription:
+                "TeamViewer provides a Digital Workplace platform that connects people with technology.",
             period: "Jan 2025 - Present",
             responsibilities: ["Still exploring 🤠."],
         },
         {
             title: "Software Engineer ⭐",
             company: "Critical TechWorks",
+            companyUrl: "https://www.criticaltechworks.com",
+            companyDescription:
+                "Critical TechWorks is a joint venture between BMW Group and Critical Group, concentrating on aiding BMW in software development.",
             period: "Dec 2023 - Dec 2024",
             responsibilities: [
-                "Developed and maintained Java microservices using Quarkus for the Automotive Infotainment system.",
-                "Orchestrated and managed containerized microservices using Kubernetes, ensuring high availability, scalability, and efficient resource utilization.",
-                "Embraced DevOps practices within a unified development and operations team.",
-                "Established and implemented comprehensive testing strategies using JUnit and Mockito for Backend, Jest and Cypress for Frontend.",
-                "Continuously monitored and optimized the performance and scalability of the Java microservices architecture using tools like Grafana and Elastic Kibana.",
-                "Provided 24/7 support for our microservices.",
-                "Deployed and managed AWS infrastructure (including RDS, S3, Lambda, and EKS) using Terraform through CI/CD pipelines on GitHub Actions, ensuring consistent and automated infrastructure provisioning and Kubernetes cluster management.",
+                "Increased service performance by architecting and deploying Java microservices with Quarkus for the Automotive Infotainment system, enabling seamless feature rollout to 1.000.000+ vehicles.",
+                "Improved deployment efficiency through Kubernetes orchestration, implementing auto-scaling policies that reduced monthly costs while maintaining 99.9% uptime.",
+                "Reduced production bugs by 75% by increasing tests using JUnit, Mockito, Jest, and Cypress, achieving 90%+ code coverage.",
+                "Optimized service response times by 50% through proactive monitoring with Grafana and Elastic Kibana, identifying and resolving performance bottlenecks before customer impact.",
+                "Maintained 99.9% service availability by implementing robust incident response protocols and providing 24/7 on-call support, resolving critical issues within 15-minute SLA.",
+                "Reduced infrastructure provisioning time from hours to minutes by implementing Infrastructure as Code with Terraform, automating AWS resource management (RDS, S3, Lambda, EKS) and eliminating manual configuration errors.",
             ],
         },
         {
             title: "Full-Stack Developer 👍",
             company: "Go Ready Data",
+            companyUrl: "https://goreadydata.com",
+            companyDescription:
+                "Go Ready Data is a Software House which delivers market-ready and tailor-made Solutions for customers.",
             period: "Aug 2022 - Jan 2023",
             responsibilities: [
-                "Supported and developed legacy ASP.NET applications, ensuring their continued performance and stability.",
-                "Built and maintained WordPress websites, enhancing their functionality and user experience.",
-                "Engaged in direct communication with clients to gather requirements, provide updates, and ensure project alignment with client expectations.",
-            ],
-        },
-        {
-            title: "Erasmus Pro - Internship 🇮🇹",
-            company: "Start Smart Srl",
-            period: "May 2022 - Jul 2022",
-            responsibilities: [
-                "Developed web applications using Angular, contributing to the front-end development and improving user interfaces.",
-                "Created Virtual Reality (VR) and Augmented Reality (AR) experiences using Unity, expanding the company’s capabilities in immersive technologies.",
-            ],
-        },
-        {
-            title: "Internship 👍",
-            company: "Go Ready Data",
-            period: "Feb 2021 - Mar 2021",
-            responsibilities: [
-                "Developed a rule-based chatbot using C#, enhancing the company’s customer interaction capabilities through automated responses",
+                "Maintained 99% uptime for 3 legacy ASP.NET applications by resolving bugs and implementing critical updates, supporting 100+ daily users.",
+                "Built and deployed 5 WordPress websites for clients, implementing responsive design and basic SEO.",
+                "Served as primary technical contact for 2 clients, gathering requirements and providing regular project updates to ensure alignment with business needs.",
             ],
         },
     ];
@@ -63,11 +54,25 @@ export default function Experience() {
                                 {exp.period}
                             </span>
                         </div>
-                        <p className="text-primary">{exp.company}</p>
+                        <p className="text-primary">
+                            <a
+                                href={exp.companyUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {exp.company}
+                            </a>
+                        </p>
+                        <p className="text-gray-600 italic">
+                            {exp.companyDescription}
+                        </p>
                         <ul className="space-y-1 mt-2">
                             {exp.responsibilities.map((resp, idx) => (
-                                <li key={idx} className="text-muted-foreground">
-                                    <span className="text-primary">-</span>{" "}
+                                <li
+                                    key={idx}
+                                    className="text-muted-foreground ms-5"
+                                >
+                                    <span className="text-primary">•</span>{" "}
                                     {resp}
                                 </li>
                             ))}

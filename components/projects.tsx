@@ -1,6 +1,6 @@
 import CodeBlock from "./code-block";
-import { ExternalLink, Github } from "lucide-react";
-import { Button } from "./ui/button";
+import {ExternalLink, Github} from "lucide-react";
+import {Button} from "./ui/button";
 
 export default function Projects() {
     const projects = [
@@ -26,8 +26,22 @@ export default function Projects() {
         {
             title: "More to come (trust me 🙏)",
             description:
-                "Hello Santa Claus🎅 (or Mrs. Claus 🤶), I'd like a present for my adventurous ability to do more side projects!",
+                "Hello Santa Claus🎅 (or Mrs. Claus 🤶), I'd like some type of present that would increase my adventurous ability to do more side projects!",
             technologies: ["Santa", "Christmas"],
+            codeSnippet: {
+                language: null,
+                code: null,
+            },
+            links: {
+                github: null,
+                demo: null,
+            },
+        },
+        {
+            title: "Ok now I will be trying to do something",
+            description:
+                "Psssttt... Can someone help me do more side projects? 😭",
+            technologies: ["Please", "?"],
             codeSnippet: {
                 language: null,
                 code: null,

@@ -12,11 +12,11 @@ export default function Home() {
             <Header />
             <About />
             <hr className="my-8 border-border" />
+            <Experience />
+            <hr className="my-8 border-border" />
             <Skills />
             <hr className="my-8 border-border" />
             <Projects />
-            <hr className="my-8 border-border" />
-            <Experience />
             <hr className="my-8 border-border" />
             <Contact />
             <Footer />
