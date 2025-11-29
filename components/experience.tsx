@@ -18,10 +18,9 @@ export default function Experience() {
             period: "Dec 2023 - Dec 2024",
             responsibilities: [
                 "Increased service performance by architecting and deploying Java microservices with Quarkus for the Automotive Infotainment system, enabling seamless feature rollout to 1.000.000+ vehicles.",
-                "Improved deployment efficiency through Kubernetes orchestration, implementing auto-scaling policies that reduced monthly costs while maintaining 99.9% uptime.",
                 "Reduced production bugs by 75% by increasing tests using JUnit, Mockito, Jest, and Cypress, achieving 90%+ code coverage.",
                 "Optimized service response times by 50% through proactive monitoring with Grafana and Elastic Kibana, identifying and resolving performance bottlenecks before customer impact.",
-                "Maintained 99.9% service availability by implementing robust incident response protocols and providing 24/7 on-call support, resolving critical issues within 15-minute SLA.",
+                "Ensured 99.9% service availability by architecting a high‑availability Kubernetes infrastructure with automated scaling and replica management (while reducing costs), implementing robust incident response protocols, and providing 24/7 on‑call support to resolve critical issues within a 15‑minute SLA.",
                 "Reduced infrastructure provisioning time from hours to minutes by implementing Infrastructure as Code with Terraform, automating AWS resource management (RDS, S3, Lambda, EKS) and eliminating manual configuration errors.",
             ],
         },
