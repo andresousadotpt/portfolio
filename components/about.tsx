@@ -9,13 +9,9 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground">
                 <p>
-                    I'm a DevOps Engineer{" "}
-                    <span className="text-xs text-gray-500">
-                        (🤞 working my way into Platform Engineer 🤞)
-                    </span>{" "}
-                    with experience in building and maintaining robust CI/CD
-                    pipelines, infrastructure as code, and cloud-native
-                    solutions.
+                    I'm a DevOps Engineer with experience in building and
+                    maintaining robust CI/CD pipelines, infrastructure as code,
+                    and cloud-native solutions.
                 </p>
                 <p>
                     My approach focuses on implementing DevOps best practices to
