@@ -1,4 +1,7 @@
+import Link from "next/link";
+import { BookOpen } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Button } from "./ui/button";
 
 export default function Header() {
     return (
@@ -19,6 +22,16 @@ export default function Header() {
             <div className="text-xl text-muted-foreground">
                 <span className="text-primary">&gt;</span> DevOps Engineer
             </div>
+
+            <nav className="mt-4">
+                <Button variant="outline" size="sm" asChild>
+                    <Link href="/blog" className="flex items-center gap-2">
+                        <BookOpen className="h-4 w-4" />
+                        Read the blog
+                        <span className="text-muted-foreground">→</span>
+                    </Link>
+                </Button>
+            </nav>
         </header>
     );
 }
