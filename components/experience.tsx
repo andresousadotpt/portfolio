@@ -7,7 +7,14 @@ export default function Experience() {
             companyDescription:
                 "TeamViewer provides a Digital Workplace platform that connects people with technology.",
             period: "Jan 2025 - Present",
-            responsibilities: ["Still exploring 🤠."],
+            responsibilities: [
+                "Architected the end-to-end infrastructure of a new customer-facing product from greenfield, owning IaC design with OpenTofu and Terragrunt, Kubernetes cluster architecture with AKS, GitOps workflows with Argo CD, and CI/CD pipelines with GitLab CI/CD, leading the 100% migration of legacy ClickOps infrastructure to code.",
+                "Designed and documented a reusable GitLab CI/CD component library from scratch, authoring Go and Bash tooling to support pipeline automation, establishing org-wide standards that reduced pipeline setup time and ensured consistent build and deployment practices across all teams.",
+                "Onboarded and enabled 4 cross-functional teams onto the new platform, defining shared standards and folder conventions that allowed teams to ship independently without diverging from platform norms.",
+                "Designed multi-tenant AKS infrastructure to support deployment across VPC, air-gapped, and SaaS environments, ensuring the platform architecture accommodated different security and connectivity requirements without sacrificing consistency or release velocity.",
+                "Owned end-to-end observability across two platforms, operating a Prometheus/Loki/Mimir stack on legacy infrastructure and designing a VictoriaMetrics/VictoriaLogs stack from scratch on the greenfield product, integrating Traefik ingress metrics to reduce mean time to detection and improve incident response.",
+                "Automated secrets management across the organisation by integrating 1Password into the deployment pipeline, eliminating hardcoded credentials and enforcing secrets hygiene at scale.",
+            ],
         },
         {
             title: "Software Engineer ⭐",
