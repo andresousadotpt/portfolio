@@ -11,13 +11,13 @@ export function GET() {
 
     const body = `# André Sousa
 
-> DevOps Engineer building and maintaining CI/CD pipelines, infrastructure as
+> Platform Engineer building and maintaining CI/CD pipelines, infrastructure as
 > code, and cloud-native solutions. Writes about infrastructure, IaC, and
 > over-engineering side projects.
 
 ## About
 
-André Sousa is a DevOps Engineer experienced with Kubernetes, Terraform/OpenTofu,
+André Sousa is a Platform Engineer experienced with Kubernetes, Terraform/OpenTofu,
 GitOps (Argo CD, FluxCD), CI/CD (GitLab CI, GitHub Actions), and observability
 (Prometheus, Loki, Grafana, VictoriaMetrics). Portfolio and blog: ${siteUrl}
 

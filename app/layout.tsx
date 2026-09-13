@@ -18,16 +18,16 @@ const ogImage = "https://cdn.andresousa.pt/personal/logo_no_bg_white.png";
 export const metadata: Metadata = {
     metadataBase: new URL(siteUrl),
     title: {
-        default: "André Sousa — DevOps Engineer",
+        default: "André Sousa — Platform Engineer",
         template: "%s — André Sousa",
     },
     description:
-        "The classic DevOps Engineer experience website. (Markdown look portfolio 💀)",
+        "The classic Platform Engineer experience website. (Markdown look portfolio 💀)",
     authors: [{ name: "André Sousa", url: siteUrl }],
     creator: "André Sousa",
     keywords: [
         "André Sousa",
-        "DevOps Engineer",
+        "Platform Engineer",
         "Kubernetes",
         "Terraform",
         "Infrastructure as Code",
@@ -42,17 +42,17 @@ export const metadata: Metadata = {
         type: "website",
         url: siteUrl,
         siteName: "André Sousa",
-        title: "André Sousa — DevOps Engineer",
+        title: "André Sousa — Platform Engineer",
         description:
-            "DevOps Engineer writing about infrastructure, IaC, and over-engineering side projects.",
+            "Platform Engineer writing about infrastructure, IaC, and over-engineering side projects.",
         images: [{ url: ogImage, alt: "André Sousa" }],
         locale: "en_US",
     },
     twitter: {
         card: "summary",
-        title: "André Sousa — DevOps Engineer",
+        title: "André Sousa — Platform Engineer",
         description:
-            "DevOps Engineer writing about infrastructure, IaC, and over-engineering side projects.",
+            "Platform Engineer writing about infrastructure, IaC, and over-engineering side projects.",
         images: [ogImage],
     },
     robots: {

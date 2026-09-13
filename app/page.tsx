@@ -12,7 +12,7 @@ const personSchema = {
     "@type": "Person",
     name: "André Sousa",
     url: "https://andresousa.pt",
-    jobTitle: "DevOps Engineer",
+    jobTitle: "Platform Engineer",
     image: "https://cdn.andresousa.pt/personal/pfp_portfolio.jpg",
     email: "contact@andresousa.pt",
     sameAs: [
@@ -20,7 +20,7 @@ const personSchema = {
         "https://linkedin.com/in/andresousadotpt",
     ],
     knowsAbout: [
-        "DevOps",
+        "Platform",
         "Kubernetes",
         "Terraform",
         "Infrastructure as Code",

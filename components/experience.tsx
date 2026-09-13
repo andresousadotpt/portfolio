@@ -1,12 +1,23 @@
 export default function Experience() {
     const experiences = [
         {
+            title: "Platform Engineer",
+            company: "Feedzai",
+            companyUrl: "https://feedzai.com",
+            companyDescription:
+                "Feedzai provides a platform for AI-Native fraud & Financial Crime Prevention.",
+            period: "Aug 2026 - Present",
+            responsibilities: [
+                "Still working in...",
+            ],
+        },
+        {
             title: "DevOps Engineer ♾️",
             company: "TeamViewer",
             companyUrl: "https://teamviewer.com",
             companyDescription:
                 "TeamViewer provides a Digital Workplace platform that connects people with technology.",
-            period: "Jan 2025 - Present",
+            period: "Jan 2025 - Aug 2026",
             responsibilities: [
                 "Architected the end-to-end infrastructure of a new customer-facing product from greenfield, owning IaC design with OpenTofu and Terragrunt, Kubernetes cluster architecture with AKS, GitOps workflows with Argo CD, and CI/CD pipelines with GitLab CI/CD, leading the 100% migration of legacy ClickOps infrastructure to code.",
                 "Designed and documented a reusable GitLab CI/CD component library from scratch, authoring Go and Bash tooling to support pipeline automation, establishing org-wide standards that reduced pipeline setup time and ensured consistent build and deployment practices across all teams.",

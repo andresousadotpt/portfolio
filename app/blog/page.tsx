@@ -8,7 +8,7 @@ import { getAllPosts, formatDate } from "@/lib/posts";
 export const metadata: Metadata = {
     title: "Blog",
     description:
-        "Thoughts, experiments and over-engineering from a DevOps Engineer.",
+        "Thoughts, experiments and over-engineering from a Platform Engineer.",
     alternates: { canonical: "/blog" },
 };
 

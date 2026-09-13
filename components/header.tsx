@@ -20,7 +20,7 @@ export default function Header() {
             </div>
 
             <div className="text-xl text-muted-foreground">
-                <span className="text-primary">&gt;</span> DevOps Engineer
+                <span className="text-primary">&gt;</span> Platform Engineer
             </div>
 
             <nav className="mt-4">
