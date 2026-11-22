@@ -14,7 +14,7 @@ const personSchema = {
     url: "https://andresousa.pt",
     jobTitle: "Platform Engineer",
     image: "https://cdn.andresousa.pt/personal/pfp_portfolio.jpg",
-    email: "contact@andresousa.pt",
+    email: "portfolio@andresousa.pt",
     sameAs: [
         "https://github.com/andresousadotpt",
         "https://linkedin.com/in/andresousadotpt",

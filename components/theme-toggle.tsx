@@ -33,7 +33,7 @@ export default function ThemeToggle() {
             <Button
                 variant="ghost"
                 size="icon"
-                onClick={() => window.open("mailto:contact@andresousa.pt")}
+                onClick={() => window.open("mailto:portfolio@andresousa.pt")}
                 aria-label="Email me"
             >
                 <Mail className="h-5 w-5" />

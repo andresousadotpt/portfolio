@@ -1,5 +1,5 @@
-import { Mail, Github, Linkedin } from "lucide-react";
-import { Button } from "./ui/button";
+import {Mail, Github, Linkedin} from "lucide-react";
+import {Button} from "./ui/button";
 
 export default function Contact() {
     return (
@@ -14,11 +14,11 @@ export default function Contact() {
             <div className="flex flex-wrap gap-3">
                 <Button variant="outline" asChild>
                     <a
-                        href="mailto:contact@andresousa.pt"
+                        href="mailto:portfolio@andresousa.pt"
                         className="flex items-center gap-2"
                     >
                         <Mail className="h-4 w-4" />
-                        contact@andresousa.pt
+                        portfolio@andresousa.pt
                     </a>
                 </Button>
 
